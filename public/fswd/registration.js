@@ -1,4 +1,4 @@
-import angular from 'angular';
+var angular = require('angular');
 
 angular.module('fswd.registration', [])
   .directive('uniqueUsername', function($http, $q) {

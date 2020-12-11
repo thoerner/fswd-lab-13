@@ -1,5 +1,5 @@
-import 'fswd/todo';
-import 'fswd/registration';
+var angular = require('angular');
+require('./fswd/todo');
+require('./fswd/registration');
 
-console.log("LOADING!!");
 angular.module('fswd', ['fswd.todo', 'fswd.registration']);
